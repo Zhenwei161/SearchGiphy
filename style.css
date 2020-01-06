@@ -1,0 +1,67 @@
+body{
+  background-color: black;
+}
+h1{
+  font-family:monospace;
+  font-size: 300%;
+  color: white;
+}
+nav{
+  text-align: center;
+  font-family:monospace;
+  color: white;
+  font-size: 250%;
+
+}
+.top{
+  top:0;
+	width:100%;
+	position:fixed;
+	padding:10px;
+	text-align:center;
+	font-weight:bold;
+  z-index: 2;
+  background: black;
+}
+input[type=text], select{
+  width: 18%;
+  height: 18px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button{
+  padding: 2px 16px;
+  border-radius: 2px;
+  font-family: monospace;
+ }
+.result{
+  z-index: 1;
+  padding: 10px 10px;
+  margin: 50px 50px 30px 50px;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 15vw;
+  grid-gap: 10px;
+}
+.result img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  border-radius: 4px;
+}
+.container{
+  padding: 5px;
+  opacity: 0.90;
+}
+.container:hover{
+  padding: 1px;
+  opacity: 1;
+  cursor:zoom-in;
+}
+.page-nav{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
